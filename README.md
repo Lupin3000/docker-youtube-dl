@@ -5,16 +5,16 @@ Example Usage (use image)
 -------------------------
 
 ```shell
-# create new VM
+# create new VM (optional)
 $ docker-machine create -d virtualbox YoutubeDL
 
 # list VM`s (optional)
 $ docker-machine ls
 
-# pointing shell
+# pointing shell (optional)
 $ eval $(docker-machine env YoutubeDL)
 
-# pull from DockerHub
+# pull from DockerHub (optional)
 $ docker pull slorenz/youtubedl
 
 # create new directory
